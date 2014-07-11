@@ -1,0 +1,28 @@
+:root {
+	--main-background : #606060;
+	--item-background : linear-gradient(black,#444444,black);
+}
+#header span{display:inline-block;width:85%;text-align:center;white-space: nowrap;}
+#header select{display:inline-block;text-align:right;
+	width: 10%;position: relative;}
+#orgheader a{text-decoration:none;color:#ffffff;font-size:2em;line-height:50px;}
+#orgheader img{height:40px}
+#personnel a{font-size: 10pt}
+#personnel a:active{background: #606060; color:#f1f1f1;
+	border-radius:2px;padding: 2px}
+#rpttab a{width:100px;padding-left:10px;padding-right:10px}
+#reports button{background: transparent;color: #424242;}
+#tableContent div {width:100%}
+body{color:#424242;font:14pt Arial;background-color:#f1f1f1}
+button {background:linear-gradient(black,#444444,black);color:#F1F1F1;border-radius:5px;
+	font-size:14pt}
+div .block {background:#ffffff;padding:5px;color:#424242;
+	border-radius:10px;width:200px;height:100px;}
+button:active{background: #606060; color:#f1f1f1}
+select{background: #ffffff;border-radius:3px;
+	color:#424242;cursor: pointer;outline: none;border:none;width:auto}
+
+@media print {
+	#noprint {display: none;}
+	#tableContent{color:#000000}
+}

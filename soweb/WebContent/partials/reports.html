@@ -1,0 +1,12 @@
+<button id="noprint" style="float:right" onclick="printPage()">PRINT</button>
+<div id="reports">
+	<div id="noprint">
+		<div id="rpttab" style="padding-bottom:5px">
+			<a id="rpttype{{$index}}" ng-repeat="tab in tabs" ng-click="setType($index)">{{tab}}</a>
+		</div>
+		<div id="tables">
+			<button id="table{{$index}}" ng-repeat="table in tables" ng-click="setTable($index)">{{table.name}}</button>
+		</div>
+	</div>
+	<div id="tableContent" style="width:100%"/>
+</div>

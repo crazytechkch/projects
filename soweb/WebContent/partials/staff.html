@@ -1,0 +1,23 @@
+<div><h1>PERSONNEL</h1></div>
+<div>
+	<div style="padding: 10px;float:left" ng-repeat='per in pers'>
+		<div id="personnel" class="block">
+			<div style="float:right">
+				<a>EDIT</a>
+				<a>DEL<a/>
+			</div>
+			{{per.firstname}} {{per.lastname}}<br/> 
+			<div style="font-size: 12pt">
+				{{per.position}}<br/> 
+				Tel 1 : {{per.contact1}}<br/>
+				Tel 2 : {{per.contact2}}<br/>
+				{{per.email}}
+			</div>
+		</div>
+	</div>
+	<div style="float:left;padding:10px">
+		<button class="block" style="text-align:center;vertical-align: middle;font-size:40pt">
+			+
+		</button>
+	</div>
+</div>
