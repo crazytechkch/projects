@@ -1,0 +1,31 @@
+<div>
+	<b>PERSONNEL</b>
+	<div style="float:right">
+		<button>+</button>
+	</div>
+</div>
+<div>
+	<div style="padding: 10px;float:left" ng-repeat='per in pers'>
+		<div id="personnel" class="block">
+			<div style="float:right">
+				<button class="btnDelete"/>
+			</div>
+			{{per.firstname}} {{per.lastname}}<br/> 
+			<div style="float:left">
+				<img style="width:70px;position: absolute;z-index:200" src="./css/img/circleoverlay.png"/>
+				<!-- 
+				 <img style="width:70px; z-index:100" src="./css/img/profpic_{{per.gender}}.png"/>
+				 -->
+				 <img style="width:70px;height:70px; z-index:100" src="{{per.img}}">
+				
+				
+			</div>
+			<div style="float:left;font-size:10pt">
+				{{per.position}}<br/> 
+				Tel 1 : {{per.contact1}}<br/>
+				Tel 2 : {{per.contact2}}<br/>
+				{{per.email}}
+			</div>
+		</div>
+	</div>
+</div>

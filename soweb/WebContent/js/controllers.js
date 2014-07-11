@@ -24,7 +24,7 @@ angular.module('myApp.controllers', [])
 		    	$scope.pers = data;
 		    	console.log($scope.pers);
 		    	$scope.message = 'success'; 
-		    	
+
 		    	return data;
 			}).
 		    error(function(data) {

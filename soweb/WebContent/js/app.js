@@ -11,7 +11,7 @@ angular.module('myApp', [
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/home', {templateUrl: 'partials/home.html', controller: 'mainCtrl'});
-  $routeProvider.when('/staff', {templateUrl: 'partials/staff.html', controller: 'persCtrl'});
+  $routeProvider.when('/staff', {templateUrl: 'partials/personnel.html', controller: 'persCtrl'});
   $routeProvider.when('/reports', {templateUrl: 'partials/reports.html?type=fi', controller: 'rptCtrl'});
   $routeProvider.when('/about', {templateUrl: 'partials/about.html', controller: 'mainCtrl'});
   $routeProvider.otherwise({redirectTo: '/home'})

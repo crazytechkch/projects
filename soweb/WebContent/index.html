@@ -27,8 +27,8 @@
 </div>
 </div>
 
-<div id="all" ng-class="{hide:showmenu,slide:!showmenu}" ng-swipe-left="showmenu=false">
-<div class="overlay" ng-class="{show:showmenu}" ></div>
+<div id="all" ng-class="{hide:showmenu,slide:!showmenu}">
+<div class="overlay" ng-class="{show:showmenu}"></div>
 <div id="noprint">
 	<div id="header" style="vertical-align:middle;white-space: nowrap;">
 		<button title="show menu" ng-click="toggleMenu()"></button>
@@ -41,15 +41,15 @@
 </div>
 
 <div id="wrapper">
-<div ng-view></div>
+<div style="overflow: hidden" ng-view></div>
 </div>
 </div>
 <!-- JavaScript Includes -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="./angular/angular.js"></script>
-<script src="./angular/angular-resource.js"></script>
-<script src="./angular/angular-route.min.js"></script>
-<script src="./angular/angular-touch.min.js"></script>
+<script src="https://code.angularjs.org/1.2.20/angular.js"></script>
+<script src="https://code.angularjs.org/1.2.20/angular-resource.js"></script>
+<script src="https://code.angularjs.org/1.2.20/angular-route.min.js"></script>
+<script src="https://code.angularjs.org/1.2.20/angular-touch.min.js"></script>
 <script src="./js/app.js"></script>
 <script src="./js/services.js"></script>
 <script src="./js/controllers.js"></script>

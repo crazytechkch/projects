@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CrazyTech 基地</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">已开启目录</string>
+    <string name="drawer_close">已关闭目录</string>
+    
+    <string name="about">关于</string>
+    <string name="about_content">
+        © 2014 CrazyTech, Kuching, Malaysia
+        \n\n请浏览 <a href="http://crazytech.co">www.crazytech.co</a>
+        \n support@crazytech.co</string>
+    <string name="version">版本</string>
+    
+    <!-- Language -->
+    <string name="language">语言</string>
+	
+    
+
+</resources>
