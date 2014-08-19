@@ -1,5 +1,5 @@
 [
- {"id":"1","firstname":"John ","lastname":"Smith ","position":"Analyst ","contact1":"0166666666 ","contact2":"0199999999 ","email":"johnsmith@mail.com ","gender":"male","img":"./res/images/personnel/profpic_001.jpg"},
- {"id":"2","firstname":"Jane ","lastname":"Smith ","position":"Secretary ","contact1":"0121234567 ","contact2":"null","email":"janesmith@mail.com ","gender":"female","img":""},
- {"id":"3","firstname":"John ","lastname":"Doe ","position":"Programmer ","contact1":"0179876543 ","contact2":"null","email":"jdoe@web.co ","gender":"male","img":""},
- {"id":"4","firstname":"Jane ","lastname":"Doe ","position":"Executive ","contact1":"0145678910 ","contact2":"null","email":"janed@net.com ","gender":"female","img":"./res/images/personnel/profpic_004.jpg"}]
+ {"id":"1","firstname":"John","lastname":"Smith","position":"Analyst","contact1":"0166666666","contact2":"0199999999","email":"johnsmith@mail.com","gender":"male","img":"profpic_001"},
+ {"id":"2","firstname":"Jane","lastname":"Smith","position":"Secretary","contact1":"0121234567","email":"janesmith@mail.com","gender":"female","img":""},
+ {"id":"3","firstname":"John","lastname":"Doe","position":"Programmer","contact1":"0179876543","email":"jdoe@web.co","gender":"male","img":""},
+ {"id":"4","firstname":"Jane","lastname":"Doe","position":"Executive","contact1":"0145678910","email":"janed@net.com","gender":"female","img":"profpic_004"}]

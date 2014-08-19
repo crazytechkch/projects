@@ -15,8 +15,9 @@ angular.module('myApp.controllers', [])
 		$scope.selectedLocale=locales[1];
 		$scope.showmenu=false;
 		$scope.toggleMenu=function () {
-		$scope.showmenu = ($scope.showmenu)?false:true;  
-	  };
+			$scope.showmenu = !($scope.showmenu);
+		};
+		$scope.closeMenu = function() {$scope.showmenu = false};
 	}])
 	.controller('persCtrl', function($scope, $http) {
 		$http({method: 'GET', url: './testdata.json'}).
@@ -30,6 +31,70 @@ angular.module('myApp.controllers', [])
 		    error(function(data) {
 			   $scope.message = 'failed';
 		    });
+		$scope.gender = 'male';
+		$scope.positions = ['Analyst','Executive','Secretary','Programmer'];
+		$scope.post = '';
+		$scope.selectedPer = {};
+		$scope.commitPersonnel = function(){
+			 var fname = document.getElementById("in_fname").value;
+			 var lname = document.getElementById("in_lname").value;
+			 var phone1 = document.getElementById("in_phone1").value;
+			 var phone2 = document.getElementById("in_phone2").value;
+			 var email = document.getElementById("in_email").value;
+			 var per = $scope.selectedPer;
+			 console.log($scope.gender);
+			 if(per.index==null)$scope.pers.push({"firstname":fname,"lastname":lname,"position":$scope.post,"contact1":phone1,"contact2":phone2,"email":email,"gender":$scope.gender});
+			 else $scope.pers[per.index]={"id":per.id,"firstname":fname,"lastname":lname,"position":$scope.post,"contact1":phone1,"contact2":phone2,"email":email,"gender":$scope.gender,"img":per.img};
+			 $scope.modalShown = !$scope.modalShown;
+		}
+		$scope.uploadProfilePic = function () {
+			document.getElementById("in_img_file").click();
+		}
+		$scope.changeGender = function (gender){
+			$scope.gender = gender;
+			if($scope.selectedPer.img==null||$scope.selectedPer.img=='')$scope.selectedPer.tempImg = './res/img/personnel/profpic_'+gender;
+		}
+		$scope.showDelBox = function(index){
+			 if (confirm("Confirm Delete?") == true) {
+		        $scope.pers.splice(index,1);
+		    } else {
+		        // do not delete
+		    }
+		}
+		$scope.modalShown = false;
+		$scope.changePosition = function(position) {
+			$scope.post = position;
+		}
+		$scope.showModal = function (index, isEdit) {
+			$scope.selectedPer={};
+			if (isEdit){
+				var per = $scope.pers[index];
+				per.index = index;
+				if(per.img==''||per.img==null)per.tempImg='./res/img/personnel/profpic_'+per.gender;
+				else per.tempImg = './res/img/personnel/'+per.img;
+				console.log(per);
+				$scope.gender=per.gender;
+				$scope.post=per.position;
+				for(var i = 0;$scope.positions.length;i++){
+					if($scope.positions[i]==per.position){
+						document.getElementById("selectPost").selectedIndex = i;
+						break;
+					}
+				}
+				$scope.selectedPer = per;
+				assignInput(per);
+			}
+			else {
+				assignInput({});
+				$scope.gender='male';
+				$scope.post='Analyst';
+				$scope.selectedPer.tempImg = './res/img/personnel/profpic_male';
+			}
+			$scope.modalShown = !$scope.modalShown;
+		}
+		$scope.closeModal = function(){
+			$scope.modalShown = false;
+		}
 	})
 	.controller('rptCtrl', function($scope,$http){
 		var $tabs = [];
@@ -89,3 +154,17 @@ angular.module('myApp.controllers', [])
 		}
 	});
 
+
+
+function assignInput(per) {
+	document.getElementById("in_fname").value = checkUndefined(per.firstname);
+	document.getElementById("in_lname").value = checkUndefined(per.lastname);
+	document.getElementById("in_phone1").value = checkUndefined(per.contact1);
+	document.getElementById("in_phone2").value = checkUndefined(per.contact2);
+	document.getElementById("in_email").value = checkUndefined(per.email);
+}
+
+function checkUndefined (value) {
+	if (value==null) return '';
+	return value;
+}

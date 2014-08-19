@@ -1,7 +1,4 @@
-:root {
-	--main-background : #606060;
-	--item-background : linear-gradient(black,#444444,black);
-}
+
 #header span{display:inline-block;width:85%;text-align:center;white-space: nowrap;}
 #header select{display:inline-block;text-align:right;
 	width: 10%;position: relative;}
@@ -15,14 +12,17 @@
 #tableContent div {width:100%}
 body{color:#424242;font:14pt Arial;background-color:#f1f1f1}
 button {background:linear-gradient(black,#444444,black);
-	color:#F1F1F1;border-radius:5px}
+	color:#F1F1F1;border-radius:5px;}
 button:active{background: #606060;}
 div .block {background:#ffffff;padding:5px;color:#424242;
-	border-radius:10px;width:200px;height:100px;}
+	border-radius:10px;width:250px;height: 120px;}
 select{background: #ffffff;border-radius:3px;
-	color:#424242;cursor: pointer;outline: none;border:none;width:auto}
+	color:#424242;cursor: pointer;outline: none;width:auto}
+#personnel .btnOk {background:none;color:#424242}
 .btnDelete{width:20px;height:20px;background:url("img/btn_delete.png") no-repeat;background-size:20px 20px}
 .btnDelete:active{background:url("img/btn_delete_act.png") no-repeat;background-size:20px 20px}
+.perImg{height:15px}
+
 @media print {
 	#noprint {display: none;}
 	#tableContent{color:#000000}

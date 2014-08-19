@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html lang="en-US" ng-app="myApp" ng-controller="sliderCtrl"
 	xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ui="http://java.sun.com/jsf/facelets"
@@ -6,10 +6,11 @@
     xmlns:h="http://java.sun.com/jsf/html">
 <head>
 <title>SWOPT</title>
-<link href="logo.ico" rel="shortcut icon"></link>
+<link href="logo.png" rel="shortcut icon"></link>
 
 <link rel='stylesheet' type='text/css' href='./css/slidebar.css' />
 <link rel='stylesheet' type='text/css' href='./css/app.css' />
+<link rel='stylesheet' type='text/css' href='./css/modal-dialog.css' />
 <meta charset="utf-8" />
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
 </head>
@@ -22,7 +23,7 @@
 <li><a ng-click="showmenu = false" href="#/staff">PERSONNEL</a></li>
 <li><a ng-click="showmenu = false" href="#/reports">REPORTS</a></li>
 <li><a ng-click="showmenu = false" href="#/about">ABOUT</a></li>
-<li><a ng-click="toggleMenu()">HIDE PANEL</a></li>
+<li><a ng-click="closeMenu()">HIDE PANEL</a></li>
 </ul>
 </div>
 </div>
@@ -33,23 +34,24 @@
 	<div id="header" style="vertical-align:middle;white-space: nowrap;">
 		<button title="show menu" ng-click="toggleMenu()"></button>
 		<span id="orgheader">
-			<a href="#/home"><b></b>
-			SOFTWARE OPTIMA</b></a>
+			<a href="#/home"><b>SOFTWARE OPTIMA</b></a>
 		</span>
 		<select ng-model="selectedLocale" ng-options="locale.name for locale in locales"></select>
 	</div>
 </div>
 
-<div id="wrapper">
-<div style="overflow: hidden" ng-view></div>
+<div id="wrapper" style="height:800px;" ng-click="closeMenu()">
+<div ng-view></div>
 </div>
 </div>
 <!-- JavaScript Includes -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="https://code.angularjs.org/1.2.20/angular.js"></script>
-<script src="https://code.angularjs.org/1.2.20/angular-resource.js"></script>
-<script src="https://code.angularjs.org/1.2.20/angular-route.min.js"></script>
-<script src="https://code.angularjs.org/1.2.20/angular-touch.min.js"></script>
+<script src="./js/webpjs-0.0.2.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+<script src="./angular-1.2.21/angular.js"></script>
+<script src="./angular-1.2.21/angular-resource.js"></script>
+<script src="./angular-1.2.21/angular-route.min.js"></script>
+<script src="./angular-1.2.21/angular-touch.min.js"></script>
 <script src="./js/app.js"></script>
 <script src="./js/services.js"></script>
 <script src="./js/controllers.js"></script>
