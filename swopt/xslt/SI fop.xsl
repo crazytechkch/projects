@@ -107,11 +107,8 @@
 		<xsl:element name="fo:table-body">
 			<xsl:element name="fo:table-row">
 				<xsl:element name="fo:table-cell">
-					<xsl:element name="fo:list-block">
-						<xsl:element name="fo:list-item">
-							
-						</xsl:element>
-					</xsl:element>
+					<xsl:element name="fo:block"><xsl:value-of select="OrganisationName"/></xsl:element>
+					<xsl:element name="fo:block"><xsl:value-of select="OrganisationName"/></xsl:element>
 				</xsl:element>
 			</xsl:element>
 		</xsl:element>
