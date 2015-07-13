@@ -135,9 +135,19 @@
 			
 			 <xsl:element name="fo:static-content">
 				<xsl:attribute name="flow-name">xsl-region-after</xsl:attribute>
-				<xsl:element name="fo:block" use-attribute-sets="text-small">
-					Page <xsl:element name="fo:page-number"/> of <fo:page-number-citation ref-id='total-page'/>
-				</xsl:element>
+				<xsl:element name="fo:table" use-attribute-sets="text-small">
+					<xsl:element name="fo:table-column"></xsl:element>
+					<xsl:element name="fo:table-column"></xsl:element>
+					<xsl:element name="fo:table-body">
+						<xsl:element name="fo:table-row">
+							<xsl:element name="fo:table-cell"><xsl:element name="fo:block">Page <xsl:element name="fo:page-number"/> of <fo:page-number-citation ref-id='total-page'/></xsl:element></xsl:element>
+							<xsl:element name="fo:table-cell">
+								<xsl:element name="fo:block"><xsl:attribute name="text-align">right</xsl:attribute>
+									<xsl:value-of select="//Footers/Footer/AccountNo"/></xsl:element>
+							</xsl:element>
+						</xsl:element>
+					</xsl:element>
+				</xsl:element>`
 			</xsl:element>
 							
 			<xsl:element name="fo:static-content">
@@ -207,8 +217,18 @@
 						</xsl:element>
 					</xsl:element>
 				</xsl:element>
-				<xsl:element name="fo:block" use-attribute-sets="text-small">
-					Page <xsl:element name="fo:page-number"/> of <fo:page-number-citation ref-id='total-page'/>
+				<xsl:element name="fo:table" use-attribute-sets="text-small">
+					<xsl:element name="fo:table-column"></xsl:element>
+					<xsl:element name="fo:table-column"></xsl:element>
+					<xsl:element name="fo:table-body">
+						<xsl:element name="fo:table-row">
+							<xsl:element name="fo:table-cell"><xsl:element name="fo:block">Page <xsl:element name="fo:page-number"/> of <fo:page-number-citation ref-id='total-page'/></xsl:element></xsl:element>
+							<xsl:element name="fo:table-cell">
+								<xsl:element name="fo:block"><xsl:attribute name="text-align">right</xsl:attribute>
+									<xsl:value-of select="//Footers/Footer/AccountNo"/></xsl:element>
+							</xsl:element>
+						</xsl:element>
+					</xsl:element>
 				</xsl:element>
 			</xsl:element>
 			
@@ -248,6 +268,7 @@
 						<xsl:element name="fo:block"><xsl:value-of select="ClientMailAddr1"/></xsl:element>
 						<xsl:element name="fo:block"><xsl:value-of select="ClientMailAddr2"/></xsl:element>
 						<xsl:element name="fo:block"><xsl:value-of select="ClientMailAddr3"/></xsl:element>
+						<xsl:element name="fo:block"><xsl:value-of select="ClientMailPostCode"/></xsl:element>
 						<xsl:element name="fo:block"><xsl:attribute name="margin-bottom">4mm</xsl:attribute></xsl:element>
 						<xsl:element name="fo:block"><xsl:value-of select="ClientContactNo"/></xsl:element>
 						<xsl:element name="fo:block"><xsl:value-of select="ClientContactPerson"/></xsl:element>
@@ -328,7 +349,9 @@
 		<xsl:element name="fo:table-cell"><xsl:element name="fo:block"><xsl:number/></xsl:element></xsl:element>
 		<xsl:element name="fo:table-cell"><xsl:element name="fo:block"><xsl:value-of select="SIDOReference"/></xsl:element></xsl:element>
 		<xsl:element name="fo:table-cell"><xsl:element name="fo:block"><xsl:value-of select="ItemList"/></xsl:element></xsl:element>
-		<xsl:element name="fo:table-cell"><xsl:element name="fo:block"><xsl:value-of select="ItemDescription"/></xsl:element></xsl:element>
+		<xsl:element name="fo:table-cell">
+			<xsl:element name="fo:block"><xsl:value-of select="ItemDescription"/></xsl:element>
+			<xsl:element name="fo:block"><xsl:value-of select="ItemCode"/></xsl:element></xsl:element>
 		<xsl:element name="fo:table-cell" use-attribute-sets="align-right"><xsl:element name="fo:block"><xsl:value-of select="ItemQuantity"/></xsl:element></xsl:element>
 		<xsl:element name="fo:table-cell" use-attribute-sets="align-center"><xsl:element name="fo:block"><xsl:value-of select="ItemUOM"/></xsl:element></xsl:element>
 		<xsl:element name="fo:table-cell" use-attribute-sets="align-right"><xsl:element name="fo:block"><xsl:value-of select="ItemPrice"/></xsl:element></xsl:element>
@@ -338,8 +361,8 @@
  
  <xsl:template match="Summarys">
 	<xsl:element name="fo:table">
-		<xsl:element name="fo:table-column"><xsl:attribute name="column-width">80%</xsl:attribute></xsl:element>
-		<xsl:element name="fo:table-column"><xsl:attribute name="column-width">20%</xsl:attribute></xsl:element>
+		<xsl:element name="fo:table-column"><xsl:attribute name="column-width">90%</xsl:attribute></xsl:element>
+		<xsl:element name="fo:table-column"><xsl:attribute name="column-width">10%</xsl:attribute></xsl:element>
 		<xsl:element name="fo:table-body" use-attribute-sets="text-normal">
 			<xsl:attribute name="text-align">right</xsl:attribute>
 			<xsl:element name="fo:table-row">
@@ -356,7 +379,30 @@
 			</xsl:element>
 		</xsl:element>
 	</xsl:element>
-	<xsl:element name="fo:block" use-attribute-sets="text-normal"><xsl:value-of select="Summary/SIDescription"/></xsl:element>
+	<xsl:element name="fo:block" use-attribute-sets="text-normal">
+		<xsl:attribute name="margin-top">5mm</xsl:attribute>
+		<xsl:value-of select="Summary/SIDescription"/></xsl:element>
+	<xsl:element name="fo:table" use-attribute-sets="text-small">
+		<xsl:attribute name="width">50%</xsl:attribute>
+		<xsl:element name="fo:table-column"></xsl:element>
+		<xsl:element name="fo:table-column"></xsl:element>
+		<xsl:element name="fo:table-column"></xsl:element>
+		<xsl:element name="fo:table-column"></xsl:element>
+		<xsl:element name="fo:table-body">
+			<xsl:element name="fo:table-row">
+				<xsl:element name="fo:table-cell"><xsl:element name="fo:block">GST Summary</xsl:element></xsl:element>
+				<xsl:element name="fo:table-cell"><xsl:element name="fo:block">Item</xsl:element></xsl:element>
+				<xsl:element name="fo:table-cell"><xsl:element name="fo:block">Amount (<xsl:value-of select="//Header/CurrencyCode"/>)</xsl:element></xsl:element>
+				<xsl:element name="fo:table-cell"><xsl:element name="fo:block">Tax (<xsl:value-of select="//Header/CurrencyCode"/>)</xsl:element></xsl:element>
+			</xsl:element>
+			<xsl:element name="fo:table-row">
+				<xsl:element name="fo:table-cell"><xsl:element name="fo:block"><xsl:value-of select="GSTSummary/DefaultTaxRate"/></xsl:element></xsl:element>
+				<xsl:element name="fo:table-cell"><xsl:element name="fo:block"><xsl:value-of select="GSTSummary/ItemCount"/></xsl:element></xsl:element>
+				<xsl:element name="fo:table-cell"><xsl:element name="fo:block"><xsl:value-of select="GSTSummary/Amount"/></xsl:element></xsl:element>
+				<xsl:element name="fo:table-cell"><xsl:element name="fo:block"><xsl:value-of select="GSTSummary/TaxRate"/></xsl:element></xsl:element>
+			</xsl:element>
+		</xsl:element>
+	</xsl:element>
  </xsl:template>
  
 </xsl:stylesheet>
