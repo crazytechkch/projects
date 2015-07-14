@@ -1,0 +1,99 @@
+<Documents>
+	<Document>
+		<Header>
+			<OrgnName>KOWAYS (M) SDN. BHD.</OrgnName>
+			<OrgnAddr1>No. 69, Jalan Raja, 20200 Kuala Terengganu</OrgnAddr1>
+			<OrgnAddr2>Terengganu</OrgnAddr2>
+			<OrgnTel1>09 - 6228 9000</OrgnTel1>
+			<OrgnFax1>09 - 6228 8000</OrgnFax1>
+			<OrgnGstRegNo>100004/2015</OrgnGstRegNo>
+			<ClientName>AIMS STOCKIST SDN. BHD.</ClientName>
+			<ClientAddr1>No. 19, Jalan Tun Husin, 20200 Kuala Terengganu</ClientAddr1>
+			<ClientAddr2>Terengganu</ClientAddr2>
+			<ClientTel1>09 - 6229 7777</ClientTel1>
+			<ReportOptions>
+				<CurrencyCode>RM</CurrencyCode>
+				<InvoiceNo>T090909</InvoiceNo>
+				<Date>18 November 2015</Date>
+			</ReportOptions>
+		</Header>
+		<Details>
+			<Detail>
+				<ItemDescription>T0 Organic Rice 5 kg</ItemDescription>
+				<DiscRate>Disc. @ 10%</DiscRate>
+				<ItemQuantity>30</ItemQuantity>
+				<ItemPrice>18.90</ItemPrice>
+				<ItemAmount>567.00</ItemAmount>
+				<DiscAmount>-56.70</DiscAmount>
+				<NoTaxAmount>510.30</NoTaxAmount>
+				<TaxRate>0.00</TaxRate>
+				<TaxedAmount>510.30</TaxedAmount>
+			</Detail>
+			<Detail>
+				<ItemDescription>T0 Palm Cooking Oil 750ml</ItemDescription>
+				<DiscRate>Disc. @ 5%</DiscRate>
+				<ItemQuantity>10</ItemQuantity>
+				<ItemPrice>21.90</ItemPrice>
+				<ItemAmount>219.00</ItemAmount>
+				<DiscAmount>-21.90</DiscAmount>
+				<NoTaxAmount>197.10</NoTaxAmount>
+				<TaxRate>0.00</TaxRate>
+				<TaxedAmount>197.10</TaxedAmount>
+			</Detail>
+			<Detail>
+				<ItemDescription>T6 Farm Green Tea 10bags</ItemDescription>
+				<DiscRate></DiscRate>
+				<ItemQuantity>25</ItemQuantity>
+				<ItemPrice>15.90</ItemPrice>
+				<ItemAmount>397.50</ItemAmount>
+				<DiscAmount>Nil</DiscAmount>
+				<NoTaxAmount>397.50</NoTaxAmount>
+				<TaxRate>23.85</TaxRate>
+				<TaxedAmount>421.35</TaxedAmount>
+			</Detail>
+			<Detail>
+				<ItemDescription>T6 Eco Softener 500 ml</ItemDescription>
+				<DiscRate>Disc. @ 5%</DiscRate>
+				<ItemQuantity>10</ItemQuantity>
+				<ItemPrice>19.90</ItemPrice>
+				<ItemAmount>199.00</ItemAmount>
+				<DiscAmount>-9.99</DiscAmount>
+				<NoTaxAmount>189.91</NoTaxAmount>
+				<TaxRate>11.39</TaxRate>
+				<TaxedAmount>201.30</TaxedAmount>
+			</Detail>
+			<Detail>
+				<ItemDescription>T6 Eco Fabric Wasch 500 ml</ItemDescription>
+				<DiscRate>Disc. @ 5%</DiscRate>
+				<ItemQuantity>15</ItemQuantity>
+				<ItemPrice>25.00</ItemPrice>
+				<ItemAmount>375.00</ItemAmount>
+				<DiscAmount>-18.75</DiscAmount>
+				<NoTaxAmount>356.25</NoTaxAmount>
+				<TaxRate>21.38</TaxRate>
+				<TaxedAmount>377.63</TaxedAmount>
+			</Detail>
+			<Detail>
+				<ItemDescription>T6 Eco Ironing Aid 300 ml</ItemDescription>
+				<DiscRate></DiscRate>
+				<ItemQuantity>20</ItemQuantity>
+				<ItemPrice>10.50</ItemPrice>
+				<ItemAmount>210.00</ItemAmount>
+				<DiscAmount>Nil</DiscAmount>
+				<NoTaxAmount>210.00</NoTaxAmount>
+				<TaxRate>12.60</TaxRate>
+				<TaxedAmount>222.60</TaxedAmount>
+			</Detail>
+		</Details>
+		<Summary>
+			<NoTaxTotal>1861.06</NoTaxTotal>
+			<TaxRateTotal>69.22</TaxRateTotal>
+			<TaxedTotal>1930.28</TaxedTotal>
+			<RoundingAdj>0.02</RoundingAdj>
+			<TotalPayable>1930.30</TotalPayable>
+			<CashVoucher>50.00</CashVoucher>
+			<CashPaid>1900.00</CashPaid>
+			<Change>19.70</Change>
+		</Summary>
+	</Document>
+</Documents>
