@@ -1,277 +1,291 @@
 <Documents>
     <Document>
         <Header>
-            <CompanyName>SABAH PORTS SDN BHD</CompanyName>
+            <OrgnName>SABAH PORTS SDN BHD</OrgnName>
             <ReportOptions>
                 <Date>DECEMBER 2004</Date>
             </ReportOptions> 
         </Header>
         <Details>
             <Detail>
-                <Detail>
-                    <BranchName>Headquarters</BranchName>
-                    <BasicSalary>337333.55</BasicSalary>
-                    <Bonus>337333.55</Bonus>
-                    <Allowance>79299.99</Allowance>
-                    <Overtime>4648.82</Overtime>
-                    <GrossSalary>758615.91</GrossSalary>
-                    <Deductions>58285.96</Deductions>
-                    <HouseLoan>15601.06</HouseLoan>
-                    <HouseLoanEmployee>12544.46</HouseLoanEmployee>
-                    <HouseLoanEmployer>3056.60</HouseLoanEmployer>
-                    <Epf>95830</Epf>
-                    <EpfEmployee>43526</EpfEmployee>
-                    <EpfEmployer>52304</EpfEmployer>
-                    <Socso>5334.60</Socso>
-                    <SocsoEmployee>1185.25</SocsoEmployee>
-                    <SocsoEmployer>4149.35</SocsoEmployer>
-                    <IncomeTax>25322.20</IncomeTax>
-                    <IncomeTaxPcb>21891.20</IncomeTaxPcb>
-                    <IncomeTaxCp38>3431</IncomeTaxCp38>
-                    <NetSalary>558242.09</NetSalary>
-                    <TotalDeduction>200373.82</TotalDeduction>
-                    <TotalCost>818125.86</TotalCost>
-                </Detail>
-                <Detail>
-                    <BranchName>Kota Kinabalu</BranchName>
-                    <BasicSalary>337333.55</BasicSalary>
-                    <Bonus>337333.55</Bonus>
-                    <Allowance>79299.99</Allowance>
-                    <Overtime>4648.82</Overtime>
-                    <GrossSalary>758615.91</GrossSalary>
-                    <Deductions>58285.96</Deductions>
-                    <HouseLoan>15601.06</HouseLoan>
-                    <HouseLoanEmployee>12544.46</HouseLoanEmployee>
-                    <HouseLoanEmployer>3056.60</HouseLoanEmployer>
-                    <Epf>95830</Epf>
-                    <EpfEmployee>43526</EpfEmployee>
-                    <EpfEmployer>52304</EpfEmployer>
-                    <Socso>5334.60</Socso>
-                    <SocsoEmployee>1185.25</SocsoEmployee>
-                    <SocsoEmployer>4149.35</SocsoEmployer>
-                    <IncomeTax>25322.20</IncomeTax>
-                    <IncomeTaxPcb>21891.20</IncomeTaxPcb>
-                    <IncomeTaxCp38>3431</IncomeTaxCp38>
-                    <NetSalary>558242.09</NetSalary>
-                    <TotalDeduction>200373.82</TotalDeduction>
-                    <TotalCost>818125.86</TotalCost>
-                </Detail>
-                <Detail>
-                    <BranchName>Kudat</BranchName>
-                    <BasicSalary>337333.55</BasicSalary>
-                    <Bonus>337333.55</Bonus>
-                    <Allowance>79299.99</Allowance>
-                    <Overtime>4648.82</Overtime>
-                    <GrossSalary>758615.91</GrossSalary>
-                    <Deductions>58285.96</Deductions>
-                    <HouseLoan>15601.06</HouseLoan>
-                    <HouseLoanEmployee>12544.46</HouseLoanEmployee>
-                    <HouseLoanEmployer>3056.60</HouseLoanEmployer>
-                    <Epf>95830</Epf>
-                    <EpfEmployee>43526</EpfEmployee>
-                    <EpfEmployer>52304</EpfEmployer>
-                    <Socso>5334.60</Socso>
-                    <SocsoEmployee>1185.25</SocsoEmployee>
-                    <SocsoEmployer>4149.35</SocsoEmployer>
-                    <IncomeTax>25322.20</IncomeTax>
-                    <IncomeTaxPcb>21891.20</IncomeTaxPcb>
-                    <IncomeTaxCp38>3431</IncomeTaxCp38>
-                    <NetSalary>558242.09</NetSalary>
-                    <TotalDeduction>200373.82</TotalDeduction>
-                    <TotalCost>818125.86</TotalCost>
-                </Detail>
-                <Detail>
-                    <BranchName>Kunak</BranchName>
-                    <BasicSalary>337333.55</BasicSalary>
-                    <Bonus>337333.55</Bonus>
-                    <Allowance>79299.99</Allowance>
-                    <Overtime>4648.82</Overtime>
-                    <GrossSalary>758615.91</GrossSalary>
-                    <Deductions>58285.96</Deductions>
-                    <HouseLoan>15601.06</HouseLoan>
-                    <HouseLoanEmployee>12544.46</HouseLoanEmployee>
-                    <HouseLoanEmployer>3056.60</HouseLoanEmployer>
-                    <Epf>95830</Epf>
-                    <EpfEmployee>43526</EpfEmployee>
-                    <EpfEmployer>52304</EpfEmployer>
-                    <Socso>5334.60</Socso>
-                    <SocsoEmployee>1185.25</SocsoEmployee>
-                    <SocsoEmployer>4149.35</SocsoEmployer>
-                    <IncomeTax>25322.20</IncomeTax>
-                    <IncomeTaxPcb>21891.20</IncomeTaxPcb>
-                    <IncomeTaxCp38>3431</IncomeTaxCp38>
-                    <NetSalary>558242.09</NetSalary>
-                    <TotalDeduction>200373.82</TotalDeduction>
-                    <TotalCost>818125.86</TotalCost>
-                </Detail>
-                <Detail>
-                    <BranchName>Lahad Datu</BranchName>
-                    <BasicSalary>337333.55</BasicSalary>
-                    <Bonus>337333.55</Bonus>
-                    <Allowance>79299.99</Allowance>
-                    <Overtime>4648.82</Overtime>
-                    <GrossSalary>758615.91</GrossSalary>
-                    <Deductions>58285.96</Deductions>
-                    <HouseLoan>15601.06</HouseLoan>
-                    <HouseLoanEmployee>12544.46</HouseLoanEmployee>
-                    <HouseLoanEmployer>3056.60</HouseLoanEmployer>
-                    <Epf>95830</Epf>
-                    <EpfEmployee>43526</EpfEmployee>
-                    <EpfEmployer>52304</EpfEmployer>
-                    <Socso>5334.60</Socso>
-                    <SocsoEmployee>1185.25</SocsoEmployee>
-                    <SocsoEmployer>4149.35</SocsoEmployer>
-                    <IncomeTax>25322.20</IncomeTax>
-                    <IncomeTaxPcb>21891.20</IncomeTaxPcb>
-                    <IncomeTaxCp38>3431</IncomeTaxCp38>
-                    <NetSalary>558242.09</NetSalary>
-                    <TotalDeduction>200373.82</TotalDeduction>
-                    <TotalCost>818125.86</TotalCost>
-                </Detail>
-                <Detail>
-                    <BranchName>Sandakan</BranchName>
-                    <BasicSalary>337333.55</BasicSalary>
-                    <Bonus>337333.55</Bonus>
-                    <Allowance>79299.99</Allowance>
-                    <Overtime>4648.82</Overtime>
-                    <GrossSalary>758615.91</GrossSalary>
-                    <Deductions>58285.96</Deductions>
-                    <HouseLoan>15601.06</HouseLoan>
-                    <HouseLoanEmployee>12544.46</HouseLoanEmployee>
-                    <HouseLoanEmployer>3056.60</HouseLoanEmployer>
-                    <Epf>95830</Epf>
-                    <EpfEmployee>43526</EpfEmployee>
-                    <EpfEmployer>52304</EpfEmployer>
-                    <Socso>5334.60</Socso>
-                    <SocsoEmployee>1185.25</SocsoEmployee>
-                    <SocsoEmployer>4149.35</SocsoEmployer>
-                    <IncomeTax>25322.20</IncomeTax>
-                    <IncomeTaxPcb>21891.20</IncomeTaxPcb>
-                    <IncomeTaxCp38>3431</IncomeTaxCp38>
-                    <NetSalary>558242.09</NetSalary>
-                    <TotalDeduction>200373.82</TotalDeduction>
-                    <TotalCost>818125.86</TotalCost>
-                </Detail>
-                <Detail>
-                    <BranchName>SBCP</BranchName>
-                    <BasicSalary>337333.55</BasicSalary>
-                    <Bonus>337333.55</Bonus>
-                    <Allowance>79299.99</Allowance>
-                    <Overtime>4648.82</Overtime>
-                    <GrossSalary>758615.91</GrossSalary>
-                    <Deductions>58285.96</Deductions>
-                    <HouseLoan>15601.06</HouseLoan>
-                    <HouseLoanEmployee>12544.46</HouseLoanEmployee>
-                    <HouseLoanEmployer>3056.60</HouseLoanEmployer>
-                    <Epf>95830</Epf>
-                    <EpfEmployee>43526</EpfEmployee>
-                    <EpfEmployer>52304</EpfEmployer>
-                    <Socso>5334.60</Socso>
-                    <SocsoEmployee>1185.25</SocsoEmployee>
-                    <SocsoEmployer>4149.35</SocsoEmployer>
-                    <IncomeTax>25322.20</IncomeTax>
-                    <IncomeTaxPcb>21891.20</IncomeTaxPcb>
-                    <IncomeTaxCp38>3431</IncomeTaxCp38>
-                    <NetSalary>558242.09</NetSalary>
-                    <TotalDeduction>200373.82</TotalDeduction>
-                    <TotalCost>818125.86</TotalCost>
-                </Detail>
-                <Detail>
-                    <BranchName>SBOT</BranchName>
-                    <BasicSalary>337333.55</BasicSalary>
-                    <Bonus>337333.55</Bonus>
-                    <Allowance>79299.99</Allowance>
-                    <Overtime>4648.82</Overtime>
-                    <GrossSalary>758615.91</GrossSalary>
-                    <Deductions>58285.96</Deductions>
-                    <HouseLoan>15601.06</HouseLoan>
-                    <HouseLoanEmployee>12544.46</HouseLoanEmployee>
-                    <HouseLoanEmployer>3056.60</HouseLoanEmployer>
-                    <Epf>95830</Epf>
-                    <EpfEmployee>43526</EpfEmployee>
-                    <EpfEmployer>52304</EpfEmployer>
-                    <Socso>5334.60</Socso>
-                    <SocsoEmployee>1185.25</SocsoEmployee>
-                    <SocsoEmployer>4149.35</SocsoEmployer>
-                    <IncomeTax>25322.20</IncomeTax>
-                    <IncomeTaxPcb>21891.20</IncomeTaxPcb>
-                    <IncomeTaxCp38>3431</IncomeTaxCp38>
-                    <NetSalary>558242.09</NetSalary>
-                    <TotalDeduction>200373.82</TotalDeduction>
-                    <TotalCost>818125.86</TotalCost>
-                </Detail>
-                <Detail>
-                    <BranchName>Tawau</BranchName>
-                    <BasicSalary>337333.55</BasicSalary>
-                    <Bonus>337333.55</Bonus>
-                    <Allowance>79299.99</Allowance>
-                    <Overtime>4648.82</Overtime>
-                    <GrossSalary>758615.91</GrossSalary>
-                    <Deductions>58285.96</Deductions>
-                    <HouseLoan>15601.06</HouseLoan>
-                    <HouseLoanEmployee>12544.46</HouseLoanEmployee>
-                    <HouseLoanEmployer>3056.60</HouseLoanEmployer>
-                    <Epf>95830</Epf>
-                    <EpfEmployee>43526</EpfEmployee>
-                    <EpfEmployer>52304</EpfEmployer>
-                    <Socso>5334.60</Socso>
-                    <SocsoEmployee>1185.25</SocsoEmployee>
-                    <SocsoEmployer>4149.35</SocsoEmployer>
-                    <IncomeTax>25322.20</IncomeTax>
-                    <IncomeTaxPcb>21891.20</IncomeTaxPcb>
-                    <IncomeTaxCp38>3431</IncomeTaxCp38>
-                    <NetSalary>558242.09</NetSalary>
-                    <TotalDeduction>200373.82</TotalDeduction>
-                    <TotalCost>818125.86</TotalCost>
-                </Detail>
-                <Detail>
-                    <BranchName>Grand Total</BranchName>
-                    <BasicSalary>337333.55</BasicSalary>
-                    <Bonus>337333.55</Bonus>
-                    <Allowance>79299.99</Allowance>
-                    <Overtime>4648.82</Overtime>
-                    <GrossSalary>758615.91</GrossSalary>
-                    <Deductions>58285.96</Deductions>
-                    <HouseLoan>15601.06</HouseLoan>
-                    <HouseLoanEmployee>12544.46</HouseLoanEmployee>
-                    <HouseLoanEmployer>3056.60</HouseLoanEmployer>
-                    <Epf>95830</Epf>
-                    <EpfEmployee>43526</EpfEmployee>
-                    <EpfEmployer>52304</EpfEmployer>
-                    <Socso>5334.60</Socso>
-                    <SocsoEmployee>1185.25</SocsoEmployee>
-                    <SocsoEmployer>4149.35</SocsoEmployer>
-                    <IncomeTax>25322.20</IncomeTax>
-                    <IncomeTaxPcb>21891.20</IncomeTaxPcb>
-                    <IncomeTaxCp38>3431</IncomeTaxCp38>
-                    <NetSalary>558242.09</NetSalary>
-                    <TotalDeduction>200373.82</TotalDeduction>
-                    <TotalCost>818125.86</TotalCost>
-                </Detail>
-                <Detail>
-                    <BranchName>Previous Month</BranchName>
-                    <BasicSalary>337333.55</BasicSalary>
-                    <Bonus>337333.55</Bonus>
-                    <Allowance>79299.99</Allowance>
-                    <Overtime>4648.82</Overtime>
-                    <GrossSalary>758615.91</GrossSalary>
-                    <Deductions>58285.96</Deductions>
-                    <HouseLoan>15601.06</HouseLoan>
-                    <HouseLoanEmployee>12544.46</HouseLoanEmployee>
-                    <HouseLoanEmployer>3056.60</HouseLoanEmployer>
-                    <Epf>95830</Epf>
-                    <EpfEmployee>43526</EpfEmployee>
-                    <EpfEmployer>52304</EpfEmployer>
-                    <Socso>5334.60</Socso>
-                    <SocsoEmployee>1185.25</SocsoEmployee>
-                    <SocsoEmployer>4149.35</SocsoEmployer>
-                    <IncomeTax>25322.20</IncomeTax>
-                    <IncomeTaxPcb>21891.20</IncomeTaxPcb>
-                    <IncomeTaxCp38>3431</IncomeTaxCp38>
-                    <NetSalary>558242.09</NetSalary>
-                    <TotalDeduction>200373.82</TotalDeduction>
-                    <TotalCost>818125.86</TotalCost>
-                </Detail>
+                <Item>Basic Salary</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Bonus</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Allowances</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Overtime</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Gross Salary</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Deductions</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Housing Loan Employee</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Housing Loan Employer</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>EPF Employee</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>EPF Employer</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>SOCSO Employee</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Housing Loan Employer</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Income Tax PCB</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Income Tax CP38</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Net Salary</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Housing Loan Employee</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Housing Loan Deduct</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>EPF Deduct</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>SOCSO Deduct</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Income Tax Deduct</Item>
+                <Amount branch="hq">337333.55</Amount>
+                <Amount branch="kk">194562.35</Amount>
+                <Amount branch="kd">24111</Amount>
+                <Amount branch="kn">31169.28</Amount>
+                <Amount branch="ld">149360.42</Amount>
+                <Amount branch="sd">329989.90</Amount>
+                <Amount branch="sbsp">411855.32</Amount>
+                <Amount branch="sbot">106522.08</Amount>
+                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
             </Detail>
         </Details>
     </Document>
