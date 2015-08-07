@@ -4,286 +4,284 @@
             <OrgnName>SABAH PORTS SDN BHD</OrgnName>
             <ReportOptions>
                 <Date>DECEMBER 2004</Date>
-            </ReportOptions> 
+                <CurrencyCode>RM</CurrencyCode>
+            </ReportOptions>
+            <Branches>
+                <Branch>Headquarters</Branch>
+                <Branch>Kota Kinabalu</Branch>
+                <Branch>Kudat</Branch>
+                <Branch>Kunak</Branch>
+                <Branch>Lahad Datu</Branch>
+                <Branch>Sandakan</Branch>
+                <Branch>SBCP</Branch>
+                <Branch>SBOT</Branch>
+                <Branch>Tawau</Branch>
+            </Branches> 
         </Header>
         <Details>
             <Detail>
                 <Item>Basic Salary</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
             <Detail>
                 <Item>Bonus</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
             <Detail>
                 <Item>Allowances</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
             <Detail>
                 <Item>Overtime</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
             <Detail>
                 <Item>Gross Salary</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
             <Detail>
                 <Item>Deductions</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail>
-                <Item>Housing Loan Employee</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+            <Detail type="Employee">
+                <Item>Housing Loan</Item>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail>
-                <Item>Housing Loan Employer</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+            <Detail type="Employer">
+                <Item>Housing Loan</Item>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail>
-                <Item>EPF Employee</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+            <Detail type="Employee">
+                <Item>EPF</Item>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail>
-                <Item>EPF Employer</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+            <Detail type="Employer">
+                <Item>EPF</Item>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail>
-                <Item>SOCSO Employee</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+            <Detail type="PCB">
+                <Item>Income Tax</Item>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail>
-                <Item>Housing Loan Employer</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
-                <Amount branch="total">1891781</Amount>
-                <Amount branch="prev">15153888.89</Amount>
-            </Detail>
-            <Detail>
-                <Item>Income Tax PCB</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
-                <Amount branch="total">1891781</Amount>
-                <Amount branch="prev">15153888.89</Amount>
-            </Detail>
-            <Detail>
-                <Item>Income Tax CP38</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+            <Detail type="CP38">
+                <Item>Income Tax</Item>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
             <Detail>
                 <Item>Net Salary</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
-                <Amount branch="total">1891781</Amount>
-                <Amount branch="prev">15153888.89</Amount>
-            </Detail>
-            <Detail>
-                <Item>Housing Loan Employee</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
             <Detail>
                 <Item>Housing Loan Deduct</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
             <Detail>
                 <Item>EPF Deduct</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
             <Detail>
                 <Item>SOCSO Deduct</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
             <Detail>
                 <Item>Income Tax Deduct</Item>
-                <Amount branch="hq">337333.55</Amount>
-                <Amount branch="kk">194562.35</Amount>
-                <Amount branch="kd">24111</Amount>
-                <Amount branch="kn">31169.28</Amount>
-                <Amount branch="ld">149360.42</Amount>
-                <Amount branch="sd">329989.90</Amount>
-                <Amount branch="sbsp">411855.32</Amount>
-                <Amount branch="sbot">106522.08</Amount>
-                <Amount branch="tw">302525.55</Amount>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Total Deduct</Item>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail>
+                <Item>Total Cost</Item>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
