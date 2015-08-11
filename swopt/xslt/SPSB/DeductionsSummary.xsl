@@ -32,7 +32,7 @@
 			<thead id="header">
 				<tr><td colspan="100%" class="orgnName"><xsl:value-of select="Header/OrgnName"/></td></tr>
 				<tr><td colspan="100%">
-					<div>ALLOWANCE &amp; OVERTIME SUMMARY</div>
+					<div>DEDUCTIONS SUMMARY</div>
 					<div>FOR THE MONTH OF <xsl:value-of select="Header/ReportOptions/Date"/></div>
 				</td></tr>
 				<tr><td colspan="100%"><br/></td></tr>
@@ -41,53 +41,56 @@
 				<tr>
 					<td colspan="100%">
 						<table id="datatable">
+							<tr><td colspan="100%" style="border-style:none none solid none">ALLOWANCES</td></tr>
 							<tr>
-								<td style="border-style:solid solid solid solid"/>
+								<td style="border:1px solid"/>
 								<xsl:for-each select="Header/Branches/Branch">
 									<xsl:sort select="."/>
-									<td style="border-style:solid solid solid solid"><xsl:value-of select="."/></td>
+									<td style="border:1px solid" align="center"><xsl:value-of select="."/></td>
 								</xsl:for-each>
-								<td style="border-style:solid solid solid solid">Grand Total</td>
-								<td style="border-style:solid solid solid solid">Previous Month</td>
+								<td style="border:1px solid" align="center">Grand Total</td>
+								<td style="border:1px solid" align="center">Previous Month</td>
 							</tr>
 							<tr>
 								<td/>
 								<xsl:for-each select="Header/Branches/Branch">
-									<td><xsl:value-of select="//Header/ReportOptions/CurrencyCode"/></td>
+									<td align="center"><xsl:value-of select="//Header/ReportOptions/CurrencyCode"/></td>
 								</xsl:for-each>
-								<td><xsl:value-of select="Header/ReportOptions/CurrencyCode"/></td>
-								<td><xsl:value-of select="Header/ReportOptions/CurrencyCode"/></td>
+								<td align="center"><xsl:value-of select="Header/ReportOptions/CurrencyCode"/></td>
+								<td align="center"><xsl:value-of select="Header/ReportOptions/CurrencyCode"/></td>
 							</tr>
-							<xsl:apply-templates select="key('detailByItem','Basic Salary')"/>
-							<xsl:apply-templates select="key('detailByItem','Bonus')"/>
-							<xsl:apply-templates select="key('detailByItem','Allowances')"/>
-							<xsl:apply-templates select="key('detailByItem','Overtime')"/>
-							<tr><td colspan="100%" style="border-top:1px solid black"></td></tr>
-							<xsl:apply-templates select="key('detailByItem','Gross Salary')"/>
-							<xsl:apply-templates select="key('detailByItem','Deductions')"/>
-							<tr><td>Housing Loan</td><xsl:for-each select="//Header/Branches/Branch"><td/></xsl:for-each><td/><td/></tr>
-							<xsl:apply-templates select="key('detailByItem','Housing Loan')[@type='Employee']"/>
-							<xsl:apply-templates select="key('detailByItem','Housing Loan')[@type='Employer']"/>
-							<tr><td>EPF</td><xsl:for-each select="//Header/Branches/Branch"><td/></xsl:for-each><td/><td/></tr>
-							<xsl:apply-templates select="key('detailByItem','EPF')[@type='Employee']"/>
-							<xsl:apply-templates select="key('detailByItem','EPF')[@type='Employer']"/>
-							<tr><td>SOCSO</td><xsl:for-each select="//Header/Branches/Branch"><td/></xsl:for-each><td/><td/></tr>
-							<xsl:apply-templates select="key('detailByItem','SOCSO')[@type='Employee']"/>
-							<xsl:apply-templates select="key('detailByItem','SOCSO')[@type='Employer']"/>
-							<tr><td>Income Tax</td><xsl:for-each select="//Header/Branches/Branch"><td/></xsl:for-each><td/><td/></tr>
-							<xsl:apply-templates select="key('detailByItem','Income Tax')[@type='PCB']"/>
-							<xsl:apply-templates select="key('detailByItem','Income Tax')[@type='CP38']"/>
-							<tr><td colspan="100%" style="border-style:solid none none none"><br/></td></tr>
-							<tr><td colspan="100%" style="border:1px solid">Summary of Deductions</td></tr>
-							<xsl:apply-templates select="key('detailByItem','Deductions')"/>
-							<xsl:apply-templates select="key('detailByItem','Housing Loan Deduct')"/>
-							<xsl:apply-templates select="key('detailByItem','EPF Deduct')"/>
-							<xsl:apply-templates select="key('detailByItem','SOCSO Deduct')"/>
-							<xsl:apply-templates select="key('detailByItem','Income Tax Deduct')"/>
-							<xsl:apply-templates select="key('detailByItem','Total Deduct')"><xsl:with-param name="style">border:1px solid</xsl:with-param></xsl:apply-templates>
-							<tr><td colspan="100%" style="border-style:solid none none none"><br/></td></tr>
-							<tr><td colspan="100%" style="border:1px solid">Cost Pay by Sabah Ports - Gross Salary, Housing Loan (Employer), Employer EPF &amp; Employer SOCSO</td></tr>
-							<xsl:apply-templates select="key('detailByItem','Total Cost')"><xsl:with-param name="style">border:1px solid</xsl:with-param></xsl:apply-templates>
+							<xsl:apply-templates select="key('detailByItem','Alimony')"/>
+							<xsl:apply-templates select="key('detailByItem','Amanah Saham Bumiputra')"/>
+							<xsl:apply-templates select="key('detailByItem','Angkasa Loan')"/>
+							<xsl:apply-templates select="key('detailByItem','BSN Scheme')"/>
+							<xsl:apply-templates select="key('detailByItem','Computer Loan - Interest')"/>
+							<xsl:apply-templates select="key('detailByItem','Computer Loan - Principle')"/>
+							<xsl:apply-templates select="key('detailByItem','Etiqa Insurance')"/>
+							<xsl:apply-templates select="key('detailByItem','Half Pay Leave')"/>
+							<xsl:apply-templates select="key('detailByItem','MCIS Zurich Insurance')"/>
+							<xsl:apply-templates select="key('detailByItem','No Pay Leave')"/>
+							<xsl:apply-templates select="key('detailByItem','Others')"/>
+							<xsl:apply-templates select="key('detailByItem','Outstanding Debts - Yayasan Sabah')"/>
+							<xsl:apply-templates select="key('detailByItem','Personal Loan Deduction - Public Bank')"/>
+							<xsl:apply-templates select="key('detailByItem','Personal Loan Deduction - Sabah Credit')"/>
+							<xsl:apply-templates select="key('detailByItem','Personal Loan Deduction - SCC2')"/>
+							<xsl:apply-templates select="key('detailByItem','Recovery - Advance Claims')"/>
+							<xsl:apply-templates select="key('detailByItem','Recovery - Basic Salary/Allowances')"/>
+							<xsl:apply-templates select="key('detailByItem','Recovery - Course/Seminar')"/>
+							<xsl:apply-templates select="key('detailByItem','Recovery - Heavy Equip Driver Allowance')"/>
+							<xsl:apply-templates select="key('detailByItem','Recovery - Housing Loan Subsidy')"/>
+							<xsl:apply-templates select="key('detailByItem','Recovery - Medical &amp; Ward Charges')"/>
+							<xsl:apply-templates select="key('detailByItem','Recovery - Overtime')"/>
+							<xsl:apply-templates select="key('detailByItem','SP KESURI Membership Fee')"/>
+							<xsl:apply-templates select="key('detailByItem','Tabung Haji')"/>
+							<xsl:apply-templates select="key('detailByItem','Toastmasters Fee')"/>
+							<xsl:apply-templates select="key('detailByItem','Union Membership Fee')"/>
+							<xsl:apply-templates select="key('detailByItem','Vehicle Loan - Interest')"/>
+							<xsl:apply-templates select="key('detailByItem','Vehicle Loan - Principle')"/>
+							<xsl:apply-templates select="key('detailByItem','YPEIM')"/>
+							<xsl:apply-templates select="key('detailByItem','ZAKAT')"/>
+							<xsl:apply-templates select="key('detailByItem','Zurich Insurance(MAA)')"/>
+							<xsl:apply-templates select="key('detailByItem','GRAND TOTAL')"><xsl:with-param name="style">border:1px solid</xsl:with-param></xsl:apply-templates>
 						</table>
 					</td>
 				</tr>
@@ -121,14 +124,13 @@
 			</tfoot>
 		</table>
 	</xsl:template>
-	<xsl:template match="Detail">
+	<xsl:template match="Detail[@rptgroup='Deductions']">
 		<xsl:param name="style"/>
 		<tr>
 			<!-- 
 			 -->
 			 <xsl:choose>
-				<xsl:when test="Item='Housing Loan' or Item='EPF' or Item='SOCSO' or Item='Income Tax'"><td>&#160;&#160;-<xsl:value-of select="./@type"/></td></xsl:when>
-				<xsl:when test="Item='Total Deduct' or Item='Total Cost'"><td style="border:1px solid">Total</td></xsl:when>
+				<xsl:when test="Item='GRAND TOTAL'"><td style="border:1px solid">GRAND TOTAL</td></xsl:when>
 				<xsl:otherwise><td><xsl:value-of select="Item"/></td></xsl:otherwise>
 			</xsl:choose>
 			<td align="right"><xsl:attribute name="style"><xsl:value-of select="$style"/></xsl:attribute><xsl:value-of select="format-number(Amount[@branch='Headquarters'],'#,##0.00')"/></td>
