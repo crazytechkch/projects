@@ -560,7 +560,7 @@
                 <Item>PH Work</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
-                <Amount branch="Kudat">24111</Amount>
+	                <Amount branch="Kudat">24111</Amount>
                 <Amount branch="Kunak">31169.28</Amount>
                 <Amount branch="Lahad Datu">149360.42</Amount>
                 <Amount branch="Sandakan">329989.90</Amount>
@@ -1060,8 +1060,8 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
-                <Item>Housing Loan P (External)</Item>
+            <Detail rptgroup="Housing Loan Summary" table="Deductions &amp; Subsidy" subgroup="deduction">
+                <Item>Housing Loan - P (External)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
                 <Amount branch="Kudat">24111</Amount>
@@ -1074,7 +1074,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary" table="Deductions &amp; Subsidy" subgroup="deduction">
                 <Item>Housing Loan (Ex) Add - Principle</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1088,8 +1088,8 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
-                <Item>Housing Loan I (External)</Item>
+            <Detail rptgroup="Housing Loan Summary" table="Deductions &amp; Subsidy" subgroup="deduction">
+                <Item>Housing Loan - I (External)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
                 <Amount branch="Kudat">24111</Amount>
@@ -1102,7 +1102,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary" table="Deductions &amp; Subsidy" subgroup="deduction">
                 <Item>Housing Loan (Ex) Add - Interest</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1116,7 +1116,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary" table="Deductions &amp; Subsidy" subgroup="deduction">
                 <Item>Total Deduction</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1130,7 +1130,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary" table="Deductions &amp; Subsidy" subgroup="subsidy">
                 <Item>Housing Loan (External) - Subsidy</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1144,7 +1144,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-             <Detail rptgroup="Housing Loan">
+             <Detail rptgroup="Housing Loan Summary" table="Deductions &amp; Subsidy" subgroup="subsidy">
                 <Item>Housing Loan (External) Additional - Subsidy</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1158,7 +1158,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary" table="Deductions &amp; Subsidy" subgroup="subsidy">
                 <Item>Total Subsidy</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1172,7 +1172,21 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
+                <Item>Grand Total Deductions</Item>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>ALLIANCE BANK MALAYSIA BHD (GAYA)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1186,7 +1200,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>BANK KERJASAMA RAKYAT MALAYSIA BHD(TW)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1200,7 +1214,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>BANK MUALAMAT MALAYSIA BHD</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1214,7 +1228,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>CIMB Bank Berhad - LD</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1228,7 +1242,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>CIMB Bank Berhad - SK</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1242,7 +1256,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>CIMB BANK BHD - API</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1256,7 +1270,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>CIMB BANK BHD - INN</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1270,7 +1284,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>HONG LEONG BANK BHD</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1284,7 +1298,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>HSBC BANK MALAYSIA BERHAD</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1298,7 +1312,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>HSBC BANK MALAYSIA BHD (SK)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1312,7 +1326,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>MALAYAN BANKING BERHAD (INN)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1326,7 +1340,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>MALAYAN BANKING BERHAD (KD)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1340,7 +1354,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>MALAYAN BANKING BERHAD (SK)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1354,7 +1368,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>MALAYAN BANKING BERHAD (JP)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1368,7 +1382,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>MALAYAN BANKING BERHAD (LD)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1382,7 +1396,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>PUBLIC BANK BERHAD (LD)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1396,7 +1410,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>PUBLIC BANK BERHAD (PNG)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1410,7 +1424,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>PUBLIC BANK BERHAD (SK)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1424,7 +1438,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>PUBLIC BANK BERHAD (TW)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1438,7 +1452,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>SABAH CREDIT CORPORATION</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1452,7 +1466,7 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>SABAH CREDIT CORPORATION (SK)</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
@@ -1466,8 +1480,22 @@
                 <Amount branch="total">1891781</Amount>
                 <Amount branch="prev">15153888.89</Amount>
             </Detail>
-            <Detail rptgroup="Housing Loan">
+            <Detail rptgroup="Housing Loan Summary">
                 <Item>STANDARD CHARTERED BANK (M) BHD. (KK)</Item>
+                <Amount branch="Headquarters">337333.55</Amount>
+                <Amount branch="Kota Kinabalu">194562.35</Amount>
+                <Amount branch="Kudat">24111</Amount>
+                <Amount branch="Kunak">31169.28</Amount>
+                <Amount branch="Lahad Datu">149360.42</Amount>
+                <Amount branch="Sandakan">329989.90</Amount>
+                <Amount branch="SBCP">411855.32</Amount>
+                <Amount branch="SBOT">106522.08</Amount>
+                <Amount branch="Tawau">302525.55</Amount>
+                <Amount branch="total">1891781</Amount>
+                <Amount branch="prev">15153888.89</Amount>
+            </Detail>
+            <Detail rptgroup="Housing Loan Summary">
+                <Item>Grand Total Payment</Item>
                 <Amount branch="Headquarters">337333.55</Amount>
                 <Amount branch="Kota Kinabalu">194562.35</Amount>
                 <Amount branch="Kudat">24111</Amount>
